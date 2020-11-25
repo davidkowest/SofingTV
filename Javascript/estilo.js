@@ -1,5 +1,30 @@
 $('#myCarousel').carousel({
-    interval: 10000
+    pause: true,
+    interval: false
+})
+
+$('#myCarousel2').carousel({
+    pause: true,
+    interval: false
+})
+
+$('#myCarousel3').carousel({
+    pause: true,
+    interval: false
+})
+
+$('#myCarousel4').carousel({
+    pause: true,
+    interval: false
+})
+
+$('#myCarousel5').carousel({
+    pause: true,
+    interval: false
+})
+$('#myCarousel6').carousel({
+    pause: true,
+    interval: false
 })
 
 $('.carousel .carousel-item').each(function() {
