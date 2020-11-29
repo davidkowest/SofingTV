@@ -30,3 +30,8 @@
 .carousel-inner .carousel-item-left{ 
   transform: translateX(0);
 }
+
+.carousel-item img{
+  margin: auto; 
+  display: block;
+  }
