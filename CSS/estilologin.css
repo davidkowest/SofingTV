@@ -3,7 +3,7 @@ html {
     margin: 0;
     padding: 0;
     height: 100%;
-    background: rgb(64, 117, 138) !important;
+    background-image: url("../Imagenes/fondo4.png");
 }
 .user_card {
     height: 400px;
@@ -28,7 +28,7 @@ html {
     width: 170px;
     top: -75px;
     border-radius: 50%;
-    background:rgb(64, 117, 138);
+    background-image: url("../Imagenes/fondo4.png");
     padding: 10px;
     text-align: center;
 }
