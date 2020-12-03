@@ -16,7 +16,7 @@
   <body>
     <header>
         <!--Navbar-->
-      <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: rgba(0, 0, 0, 0.658) ;">
+      <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color: rgba(0, 0, 0, 1) ;">
           <a class="navbar-brand" href="Index.html">
             <img style="width: 60px; height: 40px;" src="..\Imagenes\Logo\logoblanco.png" alt="logo sofing tv">
           </a>
@@ -48,9 +48,13 @@
           </div>
         </nav>
     </header>
-
-    <div class="row container-fluid">
-      <div class="col-sm align-items-center">
+    <div class="row d-block d-lg-none">
+      <div class="col text-center" style="padding-top: 100px;">
+        <img class="img-fluid" src="..\Imagenes\cartelas\mulan.jpeg" alt="">
+      </div>
+    </div>
+    <div class="row container-fluid"> 
+      <div class="d-none d-lg-block col-md align-items-center bd-sidebar" style="padding-top: 25px;">
         <div class="card container-fluid" style="width: 18rem;">
           <img class="img-fluid" src="..\Imagenes\peliculas\mulan.png">
           <div class="card-body">
@@ -68,9 +72,11 @@
           </div>
         </div>
       </div>
-      <div class="col align-items-center container" style="color: rgba(253, 253, 253, 0.795);">
+      <div class="col-sm text-center container" style="color: rgba(253, 253, 253, 0.795); padding-top: 75px;">
         <div class="row">
-          <h3>Mulán</h3>
+          <div class="col text-center">
+            <h3>Mulán</h3>
+          </div>
         </div>
         <div class="row">
           <dl class="list-group-horizontal">
@@ -112,7 +118,7 @@
         </div>
 
       </div>
-      <div class="col-sm align-items-center">
+      <div class="d-none d-lg-block col align-items-center">
 
       </div>
     </div>
