@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+	<title>ElTiempo24</title>
+	<link href="https://www.tiempo.es/"/>
+	<updated>2003-12-13T18:30:02Z</updated>
+	<id>urn:uuid:60a76c80-d399-11d9-b93C-0003939e0af6</id>
+	<author>
+        <name>David Aguilar</name>
+    </author>
+	<entry>
+		<title>El tiempo Sevilla</title>
+		<link href="https://www.tiempo.es/sevilla-sevilla-es0se0093.html"/>
+		<id>urn:uuid:1225c695-cfb8-4ebb-aaaa-80da344efa6a</id>
+		<updated>2003-12-13T18:30:03Z</updated>
+		<summary>El tiempo de Sevilla</summary>
+	</entry>
+	<entry>
+		<title>El tiempo Barcelona</title>
+		<link href="https://www.tiempo.es/barcelona-barcelona-es0bc0020.html"/>
+		<summary>El tiempo de Barcelona</summary>
+		<id>urn:uuid:1225c695-cfb8-4ebb-aaaa-80da344efa66</id>
+		<updated>2003-12-13T18:30:04Z</updated>
+	</entry>
+	<entry>
+		<title>El tiempo Madrid</title>
+		<link href="https://www.tiempo.es/madrid-madrid-es0ma0079.html"/>
+		<summary>El tiempo de Madrid</summary>
+		<id>urn:uuid:1225c695-cfb8-4ebb-aaaa-80da344efa6f</id>
+		<updated>2003-12-13T18:30:05Z</updated>
+	</entry>
+</feed>

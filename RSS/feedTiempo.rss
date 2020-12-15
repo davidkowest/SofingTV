@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>
+			ElTiempo24
+		</title>
+		<link>
+			https://www.tiempo.es/
+		</link>
+		<description>
+			En esta web podremos ver el tiempo de las diferentes comunidades de España 
+		</description>
+		<language>
+			es-ES
+		</language>
+		<item>
+			<title>
+				El tiempo Sevilla
+			</title>
+			<link>
+				https://www.tiempo.es/sevilla-sevilla-es0se0093.html
+			</link>
+			<description>
+				Aquí tendremos el tiempo de Sevilla actualizado
+			</description>
+		</item>
+        <item>
+			<title>
+				El tiempo Barcelona
+			</title>
+			<link>
+				https://www.tiempo.es/barcelona-barcelona-es0bc0020.html
+			</link>
+			<description>
+				Aquí tendremos el tiempo de Barcelona actualizado
+			</description>
+		</item>
+        <item>
+			<title>
+				El tiempo Madrid
+			</title>
+			<link>
+				https://www.tiempo.es/madrid-madrid-es0ma0079.html
+			</link>
+			<description>
+				Aquí tendremos el tiempo de Madrid actualizado
+			</description>
+		</item>
+	</channel>
+</rss>
