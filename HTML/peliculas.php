@@ -14,40 +14,11 @@
     <title>SofingTV</title>
   </head>
   <body>
-    <header>
-        <!--Navbar-->
-      <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color: rgba(0, 0, 0, 1) ;">
-          <a class="navbar-brand" href="..\index.html">
-            <img style="width: 60px; height: 40px;" src="..\Imagenes\Logo\logoblanco.png" alt="logo sofing tv">
-          </a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-        
-          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-              <li class="nav-item active">
-                <a class="nav-link" href="peliculas.html">Películas<span class="sr-only">(current)</span></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="series.html">Series</a>
-              </li>
-            </ul>
-            <form class="form-inline my-2 my-lg-0 mr-auto ml-auto">
-              <input class="form-control mr-sm-2" type="search" placeholder="Buscar">
-              <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
-            </form>
-            <form class="form-inline">
-              <a href="login.html">
-                <button class="btn btn-sm btn-outline-secondary p-2" style="border-color: white; color: white;" type="button">Entrar</button>
-              </a>
-              <a href="register.html">
-                <button class="btn btn-outline-success ml-2" type="button">Registrar</button>
-              </a>
-            </form>
-          </div>
-        </nav>
-    </header>
+  
+  <?php 
+  $mi_pagina = 'peliculas';
+  include ("../PHP/header.php");    
+  ?>
     
 <!--Primer carousel-->
 <div class="container text-left my-3">
@@ -57,56 +28,56 @@
             <div class="carousel-inner w-100" role="listbox">
                 <div class="carousel-item active">
                     <div class="col-lg-2">
-                        <a href="ficha.html">
+                        <a href="ficha.php">
                             <img class="img-fluid" src="..\Imagenes\cartelas\tesla.jpeg">
                         </a>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <div class="col-lg-2">
-                        <a href="ficha.html">
+                        <a href="ficha.php">
                         <img class="img-fluid" src="..\Imagenes\cartelas\mulan.jpeg">
                         </a>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <div class="col-lg-2">
-                        <a href="ficha.html">
+                        <a href="ficha.php">
                         <img class="img-fluid" src="..\Imagenes\cartelas\madreoscura.jpeg">
                         </a>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <div class="col-lg-2">
-                        <a href="ficha.html">
+                        <a href="ficha.php">
                             <img class="img-fluid" src="..\Imagenes\cartelas\scooby.jpeg">
                         </a>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <div class="col-lg-2">
-                        <a href="ficha.html">
+                        <a href="ficha.php">
                             <img class="img-fluid" src="..\Imagenes\cartelas\lacaza.jpeg">
                         </a>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <div class="col-lg-2">
-                        <a href="ficha.html">
+                        <a href="ficha.php">
                          <img class="img-fluid" src="..\Imagenes\cartelas\honores.jpeg">
                         </a>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <div class="col-lg-2">
-                        <a href="ficha.html">
+                        <a href="ficha.php">
                             <img class="img-fluid" src="..\Imagenes\cartelas\familia.jpeg">
                         </a>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <div class="col-lg-2">
-                        <a href="ficha.html">
+                        <a href="ficha.php">
                             <img class="img-fluid" src="..\Imagenes\cartelas\corazonesrotos.jpeg">
                         </a>
                     </div>
@@ -131,56 +102,56 @@
           <div class="carousel-inner w-100" role="listbox">
             <div class="carousel-item active">
                 <div class="col-lg-2">
-                    <a href="ficha.html">
+                    <a href="ficha.php">
                         <img class="img-fluid" src="..\Imagenes\cartelas\tesla.jpeg">
                     </a>
                 </div>
             </div>
             <div class="carousel-item">
                 <div class="col-lg-2">
-                    <a href="ficha.html">
+                    <a href="ficha.php">
                     <img class="img-fluid" src="..\Imagenes\cartelas\mulan.jpeg">
                     </a>
                 </div>
             </div>
             <div class="carousel-item">
                 <div class="col-lg-2">
-                    <a href="ficha.html">
+                    <a href="ficha.php">
                     <img class="img-fluid" src="..\Imagenes\cartelas\madreoscura.jpeg">
                     </a>
                 </div>
             </div>
             <div class="carousel-item">
                 <div class="col-lg-2">
-                    <a href="ficha.html">
+                    <a href="ficha.php">
                         <img class="img-fluid" src="..\Imagenes\cartelas\scooby.jpeg">
                     </a>
                 </div>
             </div>
             <div class="carousel-item">
                 <div class="col-lg-2">
-                    <a href="ficha.html">
+                    <a href="ficha.php">
                         <img class="img-fluid" src="..\Imagenes\cartelas\lacaza.jpeg">
                     </a>
                 </div>
             </div>
             <div class="carousel-item">
                 <div class="col-lg-2">
-                    <a href="ficha.html">
+                    <a href="ficha.php">
                      <img class="img-fluid" src="..\Imagenes\cartelas\honores.jpeg">
                     </a>
                 </div>
             </div>
             <div class="carousel-item">
                 <div class="col-lg-2">
-                    <a href="ficha.html">
+                    <a href="ficha.php">
                         <img class="img-fluid" src="..\Imagenes\cartelas\familia.jpeg">
                     </a>
                 </div>
             </div>
             <div class="carousel-item">
                 <div class="col-lg-2">
-                    <a href="ficha.html">
+                    <a href="ficha.php">
                         <img class="img-fluid" src="..\Imagenes\cartelas\corazonesrotos.jpeg">
                     </a>
                 </div>
@@ -205,56 +176,56 @@
         <div class="carousel-inner w-100" role="listbox">
             <div class="carousel-item active">
                     <div class="col-lg-2">
-                        <a href="ficha.html">
+                        <a href="ficha.php">
                             <img class="img-fluid" src="..\Imagenes\cartelas\tesla.jpeg">
                         </a>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <div class="col-lg-2">
-                        <a href="ficha.html">
+                        <a href="ficha.php">
                         <img class="img-fluid" src="..\Imagenes\cartelas\mulan.jpeg">
                         </a>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <div class="col-lg-2">
-                        <a href="ficha.html">
+                        <a href="ficha.php">
                         <img class="img-fluid" src="..\Imagenes\cartelas\madreoscura.jpeg">
                         </a>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <div class="col-lg-2">
-                        <a href="ficha.html">
+                        <a href="ficha.php">
                             <img class="img-fluid" src="..\Imagenes\cartelas\scooby.jpeg">
                         </a>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <div class="col-lg-2">
-                        <a href="ficha.html">
+                        <a href="ficha.php">
                             <img class="img-fluid" src="..\Imagenes\cartelas\lacaza.jpeg">
                         </a>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <div class="col-lg-2">
-                        <a href="ficha.html">
+                        <a href="ficha.php">
                          <img class="img-fluid" src="..\Imagenes\cartelas\honores.jpeg">
                         </a>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <div class="col-lg-2">
-                        <a href="ficha.html">
+                        <a href="ficha.php">
                             <img class="img-fluid" src="..\Imagenes\cartelas\familia.jpeg">
                         </a>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <div class="col-lg-2">
-                        <a href="ficha.html">
+                        <a href="ficha.php">
                             <img class="img-fluid" src="..\Imagenes\cartelas\corazonesrotos.jpeg">
                         </a>
                     </div>
@@ -279,56 +250,56 @@
       <div class="carousel-inner w-100" role="listbox">
         <div class="carousel-item active">
             <div class="col-lg-2">
-                <a href="ficha.html">
+                <a href="ficha.php">
                     <img class="img-fluid" src="..\Imagenes\cartelas\tesla.jpeg">
                 </a>
             </div>
         </div>
         <div class="carousel-item">
             <div class="col-lg-2">
-                <a href="ficha.html">
+                <a href="ficha.php">
                 <img class="img-fluid" src="..\Imagenes\cartelas\mulan.jpeg">
                 </a>
             </div>
         </div>
         <div class="carousel-item">
             <div class="col-lg-2">
-                <a href="ficha.html">
+                <a href="ficha.php">
                 <img class="img-fluid" src="..\Imagenes\cartelas\madreoscura.jpeg">
                 </a>
             </div>
         </div>
         <div class="carousel-item">
             <div class="col-lg-2">
-                <a href="ficha.html">
+                <a href="ficha.php">
                     <img class="img-fluid" src="..\Imagenes\cartelas\scooby.jpeg">
                 </a>
             </div>
         </div>
         <div class="carousel-item">
             <div class="col-lg-2">
-                <a href="ficha.html">
+                <a href="ficha.php">
                     <img class="img-fluid" src="..\Imagenes\cartelas\lacaza.jpeg">
                 </a>
             </div>
         </div>
         <div class="carousel-item">
             <div class="col-lg-2">
-                <a href="ficha.html">
+                <a href="ficha.php">
                  <img class="img-fluid" src="..\Imagenes\cartelas\honores.jpeg">
                 </a>
             </div>
         </div>
         <div class="carousel-item">
             <div class="col-lg-2">
-                <a href="ficha.html">
+                <a href="ficha.php">
                     <img class="img-fluid" src="..\Imagenes\cartelas\familia.jpeg">
                 </a>
             </div>
         </div>
         <div class="carousel-item">
             <div class="col-lg-2">
-                <a href="ficha.html">
+                <a href="ficha.php">
                     <img class="img-fluid" src="..\Imagenes\cartelas\corazonesrotos.jpeg">
                 </a>
             </div>
@@ -353,56 +324,56 @@
         <div class="carousel-inner w-100" role="listbox">
             <div class="carousel-item active">
                     <div class="col-lg-2">
-                        <a href="ficha.html">
+                        <a href="ficha.php">
                             <img class="img-fluid" src="..\Imagenes\cartelas\tesla.jpeg">
                         </a>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <div class="col-lg-2">
-                        <a href="ficha.html">
+                        <a href="ficha.php">
                         <img class="img-fluid" src="..\Imagenes\cartelas\mulan.jpeg">
                         </a>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <div class="col-lg-2">
-                        <a href="ficha.html">
+                        <a href="ficha.php">
                         <img class="img-fluid" src="..\Imagenes\cartelas\madreoscura.jpeg">
                         </a>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <div class="col-lg-2">
-                        <a href="ficha.html">
+                        <a href="ficha.php">
                             <img class="img-fluid" src="..\Imagenes\cartelas\scooby.jpeg">
                         </a>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <div class="col-lg-2">
-                        <a href="ficha.html">
+                        <a href="ficha.php">
                             <img class="img-fluid" src="..\Imagenes\cartelas\lacaza.jpeg">
                         </a>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <div class="col-lg-2">
-                        <a href="ficha.html">
+                        <a href="ficha.php">
                          <img class="img-fluid" src="..\Imagenes\cartelas\honores.jpeg">
                         </a>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <div class="col-lg-2">
-                        <a href="ficha.html">
+                        <a href="ficha.php">
                             <img class="img-fluid" src="..\Imagenes\cartelas\familia.jpeg">
                         </a>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <div class="col-lg-2">
-                        <a href="ficha.html">
+                        <a href="ficha.php">
                             <img class="img-fluid" src="..\Imagenes\cartelas\corazonesrotos.jpeg">
                         </a>
                     </div>
@@ -533,57 +504,8 @@
         </div>
     </div>
   </div>  
-    <footer>
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-sm align-items-center" style="color: white; text-align: center; background-color: rgba(17, 17, 17, 0.322) ; ;">
-                    <h1>SOFING TV - DISFRUTA DEL CINE DESDE EL SOFÁ</h1>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-sm align-items-center" style="color: white; text-align: center; background-color: rgba(17, 17, 17, 0.322) ; ;">
-                    
-                </div>
-                <div class="col-sm align-items-center" style="color: white; text-align: center; background-color: rgba(17, 17, 17, 0.322) ; ;">
-                    <p>
-                        Sofing TV proporciona una serie de servicios que ofrecen todo un universo 
-                        de contenidos en solo unos clics. Disfruta de una verdadera experiencia cinematográfica 
-                        con los últimos estrenos.
-                    </p>
-                </div>
-                <div class="col-sm align-items-center" style="color: white; text-align: center; background-color: rgba(17, 17, 17, 0.322) ;">
-                    <div class="row">
-
-                        <div class="col-sm">
-                            <a href="https://www.instagram.com/sofingtv/?hl=es">
-                                <img class="mt-3" style="height: 70px; width: 70px;" src="..\Imagenes\instagram.png" alt=""></a>
-                        </div>
-                        <div class="col-sm">
-                            <a href="https://twitter.com/sofingtv">
-                                <img class="mt-3" style="height: 70px; width: 70px;" src="..\Imagenes\twitter.png" alt=""></a>
-                        </div>
-                        <div class="col-sm">
-                            <a href="https://www.facebook.com/sofingtv/">
-                            <img class="mt-3" style="height: 70px; width: 70px;" src="..\Imagenes\facebook.png" alt=""></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-sm align-items-center" style="color: white; text-align: center; background-color: rgba(17, 17, 17, 0.322) ; ;">
-                    <h4>SOFING TV</h4>
-                </div>
-            </div>
-        </div>
-
-
-
-        <div class="container-fluid">
-            <div class="footer-copyright text-center py-3" style="color: white;">© 2020 Copyright:
-                <a href="..\index.html">SofingTV.es</a>
-            </div>
-        </div>
-    </footer>
+  
+  <?php include ("../PHP/footer.php"); ?>
   
     <!-- Optional JavaScript; choose one of the two! -->
 

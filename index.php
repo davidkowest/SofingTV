@@ -14,40 +14,13 @@
     <title>SofingTV</title>
   </head>
   <body>
-    <header>
-        <!--Navbar-->
-      <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color: rgba(0, 0, 0, 1) ;">
-          <a class="navbar-brand" href="Index.html">
-            <img style="width: 60px; height: 40px;" src="..\SofingTV\Imagenes\Logo\logoblanco.png" alt="logo sofing tv">
-          </a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-        
-          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-              <li class="nav-item">
-                <a class="nav-link" href="..\SofingTV\HTML\peliculas.html">Películas<span class="sr-only"></span></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="..\SofingTV\HTML\series.html">Series</a>
-              </li>
-            </ul>
-            <form class="form-inline my-2 my-lg-0 mr-auto ml-auto">
-              <input class="form-control mr-sm-2" type="search" placeholder="Buscar">
-              <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
-            </form>
-            <form class="form-inline">
-              <a href="..\SofingTV\HTML\login.html">
-                <button class="btn btn-sm btn-outline-secondary p-2" style="border-color: white; color: white;" type="button">Entrar</button>
-              </a>
-              <a href="..\SofingTV\HTML\register.html">
-                <button class="btn btn-outline-success ml-2" type="button">Registrar</button>
-              </a>
-            </form>
-          </div>
-        </nav>
-    </header>
+
+  <?php 
+  $mi_pagina = 'index';
+  include ("PHP/header.php");    
+  ?>
+
+
       <div id="carouselExampleIndicators" class="container-xl carousel slide" data-ride="carousel" style="padding-top: 65px;">
         <ol class="carousel-indicators">
           <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -86,56 +59,56 @@
                 <div class="carousel-inner w-100" role="listbox">
                     <div class="carousel-item active">
                         <div class="col-lg-2">
-                            <a href="..\SofingTV\HTML\ficha.html">
+                            <a href="..\SofingTV\HTML\ficha.php">
                                 <img class="img-fluid" src="..\SofingTV\Imagenes\cartelas\tesla.jpeg">
                             </a>
                         </div>
                     </div>
                     <div class="carousel-item">
                         <div class="col-lg-2">
-                            <a href="..\SofingTV\HTML\ficha.html">
+                            <a href="..\SofingTV\HTML\ficha.php">
                             <img class="img-fluid" src="..\SofingTV\Imagenes\cartelas\mulan.jpeg">
                             </a>
                         </div>
                     </div>
                     <div class="carousel-item">
                         <div class="col-lg-2">
-                            <a href="..\SofingTV\HTML\ficha.html">
+                            <a href="..\SofingTV\HTML\ficha.php">
                             <img class="img-fluid" src="..\SofingTV\Imagenes\cartelas\madreoscura.jpeg">
                             </a>
                         </div>
                     </div>
                     <div class="carousel-item">
                         <div class="col-lg-2">
-                            <a href="..\SofingTV\HTML\ficha.html">
+                            <a href="..\SofingTV\HTML\ficha.php">
                                 <img class="img-fluid" src="..\SofingTV\Imagenes\cartelas\scooby.jpeg">
                             </a>
                         </div>
                     </div>
                     <div class="carousel-item">
                         <div class="col-lg-2">
-                            <a href="..\SofingTV\HTML\ficha.html">
+                            <a href="..\SofingTV\HTML\ficha.php">
                                 <img class="img-fluid" src="..\SofingTV\Imagenes\cartelas\lacaza.jpeg">
                             </a>
                         </div>
                     </div>
                     <div class="carousel-item">
                         <div class="col-lg-2">
-                            <a href="..\SofingTV\HTML\ficha.html">
+                            <a href="..\SofingTV\HTML\ficha.php">
                              <img class="img-fluid" src="..\SofingTV\Imagenes\cartelas\honores.jpeg">
                             </a>
                         </div>
                     </div>
                     <div class="carousel-item">
                         <div class="col-lg-2">
-                            <a href="..\SofingTV\HTML\ficha.html">
+                            <a href="..\SofingTV\HTML\ficha.php">
                                 <img class="img-fluid" src="..\SofingTV\Imagenes\cartelas\familia.jpeg">
                             </a>
                         </div>
                     </div>
                     <div class="carousel-item">
                         <div class="col-lg-2">
-                            <a href="..\SofingTV\HTML\ficha.html">
+                            <a href="..\SofingTV\HTML\ficha.php">
                                 <img class="img-fluid" src="..\SofingTV\Imagenes\cartelas\corazonesrotos.jpeg">
                             </a>
                         </div>
@@ -160,56 +133,56 @@
               <div class="carousel-inner w-100" role="listbox">
                 <div class="carousel-item active">
                     <div class="col-lg-2">
-                        <a href="..\SofingTV\HTML\ficha.html">
+                        <a href="..\SofingTV\HTML\ficha.php">
                             <img class="img-fluid" src="..\SofingTV\Imagenes\cartelas\tesla.jpeg">
                         </a>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <div class="col-lg-2">
-                        <a href="..\SofingTV\HTML\ficha.html">
+                        <a href="..\SofingTV\HTML\ficha.php">
                         <img class="img-fluid" src="..\SofingTV\Imagenes\cartelas\mulan.jpeg">
                         </a>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <div class="col-lg-2">
-                        <a href="..\SofingTV\HTML\ficha.html">
+                        <a href="..\SofingTV\HTML\ficha.php">
                         <img class="img-fluid" src="..\SofingTV\Imagenes\cartelas\madreoscura.jpeg">
                         </a>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <div class="col-lg-2">
-                        <a href="..\SofingTV\HTML\ficha.html">
+                        <a href="..\SofingTV\HTML\ficha.php">
                             <img class="img-fluid" src="..\SofingTV\Imagenes\cartelas\scooby.jpeg">
                         </a>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <div class="col-lg-2">
-                        <a href="..\SofingTV\HTML\ficha.html">
+                        <a href="..\SofingTV\HTML\ficha.php">
                             <img class="img-fluid" src="..\SofingTV\Imagenes\cartelas\lacaza.jpeg">
                         </a>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <div class="col-lg-2">
-                        <a href="..\SofingTV\HTML\ficha.html">
+                        <a href="..\SofingTV\HTML\ficha.php">
                          <img class="img-fluid" src="..\SofingTV\Imagenes\cartelas\honores.jpeg">
                         </a>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <div class="col-lg-2">
-                        <a href="..\SofingTV\HTML\ficha.html">
+                        <a href="..\SofingTV\HTML\ficha.php">
                             <img class="img-fluid" src="..\SofingTV\Imagenes\cartelas\familia.jpeg">
                         </a>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <div class="col-lg-2">
-                        <a href="..\SofingTV\HTML\ficha.html">
+                        <a href="..\SofingTV\HTML\ficha.php">
                             <img class="img-fluid" src="..\SofingTV\Imagenes\cartelas\corazonesrotos.jpeg">
                         </a>
                     </div>
@@ -234,56 +207,56 @@
             <div class="carousel-inner w-100" role="listbox">
                 <div class="carousel-item active">
                         <div class="col-lg-2">
-                            <a href="..\SofingTV\HTML\ficha.html">
+                            <a href="..\SofingTV\HTML\ficha.php">
                                 <img class="img-fluid" src="..\SofingTV\Imagenes\cartelas\tesla.jpeg">
                             </a>
                         </div>
                     </div>
                     <div class="carousel-item">
                         <div class="col-lg-2">
-                            <a href="..\SofingTV\HTML\ficha.html">
+                            <a href="..\SofingTV\HTML\ficha.php">
                             <img class="img-fluid" src="..\SofingTV\Imagenes\cartelas\mulan.jpeg">
                             </a>
                         </div>
                     </div>
                     <div class="carousel-item">
                         <div class="col-lg-2">
-                            <a href="..\SofingTV\HTML\ficha.html">
+                            <a href="..\SofingTV\HTML\ficha.php">
                             <img class="img-fluid" src="..\SofingTV\Imagenes\cartelas\madreoscura.jpeg">
                             </a>
                         </div>
                     </div>
                     <div class="carousel-item">
                         <div class="col-lg-2">
-                            <a href="..\SofingTV\HTML\ficha.html">
+                            <a href="..\SofingTV\HTML\ficha.php">
                                 <img class="img-fluid" src="..\SofingTV\Imagenes\cartelas\scooby.jpeg">
                             </a>
                         </div>
                     </div>
                     <div class="carousel-item">
                         <div class="col-lg-2">
-                            <a href="..\SofingTV\HTML\ficha.html">
+                            <a href="..\SofingTV\HTML\ficha.php">
                                 <img class="img-fluid" src="..\SofingTV\Imagenes\cartelas\lacaza.jpeg">
                             </a>
                         </div>
                     </div>
                     <div class="carousel-item">
                         <div class="col-lg-2">
-                            <a href="..\SofingTV\HTML\ficha.html">
+                            <a href="..\SofingTV\HTML\ficha.php">
                              <img class="img-fluid" src="..\SofingTV\Imagenes\cartelas\honores.jpeg">
                             </a>
                         </div>
                     </div>
                     <div class="carousel-item">
                         <div class="col-lg-2">
-                            <a href="..\SofingTV\HTML\ficha.html">
+                            <a href="..\SofingTV\HTML\ficha.php">
                                 <img class="img-fluid" src="..\SofingTV\Imagenes\cartelas\familia.jpeg">
                             </a>
                         </div>
                     </div>
                     <div class="carousel-item">
                         <div class="col-lg-2">
-                            <a href="..\SofingTV\HTML\ficha.html">
+                            <a href="..\SofingTV\HTML\ficha.php">
                                 <img class="img-fluid" src="..\SofingTV\Imagenes\cartelas\corazonesrotos.jpeg">
                             </a>
                         </div>
@@ -308,56 +281,56 @@
           <div class="carousel-inner w-100" role="listbox">
             <div class="carousel-item active">
                 <div class="col-lg-2">
-                    <a href="..\SofingTV\HTML\ficha.html">
+                    <a href="..\SofingTV\HTML\ficha.php">
                         <img class="img-fluid" src="..\SofingTV\Imagenes\cartelas\tesla.jpeg">
                     </a>
                 </div>
             </div>
             <div class="carousel-item">
                 <div class="col-lg-2">
-                    <a href="..\SofingTV\HTML\ficha.html">
+                    <a href="..\SofingTV\HTML\ficha.php">
                     <img class="img-fluid" src="..\SofingTV\Imagenes\cartelas\mulan.jpeg">
                     </a>
                 </div>
             </div>
             <div class="carousel-item">
                 <div class="col-lg-2">
-                    <a href="..\SofingTV\HTML\ficha.html">
+                    <a href="..\SofingTV\HTML\ficha.php">
                     <img class="img-fluid" src="..\SofingTV\Imagenes\cartelas\madreoscura.jpeg">
                     </a>
                 </div>
             </div>
             <div class="carousel-item">
                 <div class="col-lg-2">
-                    <a href="..\SofingTV\HTML\ficha.html">
+                    <a href="..\SofingTV\HTML\ficha.php">
                         <img class="img-fluid" src="..\SofingTV\Imagenes\cartelas\scooby.jpeg">
                     </a>
                 </div>
             </div>
             <div class="carousel-item">
                 <div class="col-lg-2">
-                    <a href="..\SofingTV\HTML\ficha.html">
+                    <a href="..\SofingTV\HTML\ficha.php">
                         <img class="img-fluid" src="..\SofingTV\Imagenes\cartelas\lacaza.jpeg">
                     </a>
                 </div>
             </div>
             <div class="carousel-item">
                 <div class="col-lg-2">
-                    <a href="..\SofingTV\HTML\ficha.html">
+                    <a href="..\SofingTV\HTML\ficha.php">
                      <img class="img-fluid" src="..\SofingTV\Imagenes\cartelas\honores.jpeg">
                     </a>
                 </div>
             </div>
             <div class="carousel-item">
                 <div class="col-lg-2">
-                    <a href="..\SofingTV\HTML\ficha.html">
+                    <a href="..\SofingTV\HTML\ficha.php">
                         <img class="img-fluid" src="..\SofingTV\Imagenes\cartelas\familia.jpeg">
                     </a>
                 </div>
             </div>
             <div class="carousel-item">
                 <div class="col-lg-2">
-                    <a href="..\SofingTV\HTML\ficha.html">
+                    <a href="..\SofingTV\HTML\ficha.php">
                         <img class="img-fluid" src="..\SofingTV\Imagenes\cartelas\corazonesrotos.jpeg">
                     </a>
                 </div>
@@ -382,56 +355,56 @@
             <div class="carousel-inner w-100" role="listbox">
                 <div class="carousel-item active">
                         <div class="col-lg-2">
-                            <a href="..\SofingTV\HTML\ficha.html">
+                            <a href="..\SofingTV\HTML\ficha.php">
                                 <img class="img-fluid" src="..\SofingTV\Imagenes\cartelas\tesla.jpeg">
                             </a>
                         </div>
                     </div>
                     <div class="carousel-item">
                         <div class="col-lg-2">
-                            <a href="..\SofingTV\HTML\ficha.html">
+                            <a href="..\SofingTV\HTML\ficha.php">
                             <img class="img-fluid" src="..\SofingTV\Imagenes\cartelas\mulan.jpeg">
                             </a>
                         </div>
                     </div>
                     <div class="carousel-item">
                         <div class="col-lg-2">
-                            <a href="..\SofingTV\HTML\ficha.html">
+                            <a href="..\SofingTV\HTML\ficha.php">
                             <img class="img-fluid" src="..\SofingTV\Imagenes\cartelas\madreoscura.jpeg">
                             </a>
                         </div>
                     </div>
                     <div class="carousel-item">
                         <div class="col-lg-2">
-                            <a href="..\SofingTV\HTML\ficha.html">
+                            <a href="..\SofingTV\HTML\ficha.php">
                                 <img class="img-fluid" src="..\SofingTV\Imagenes\cartelas\scooby.jpeg">
                             </a>
                         </div>
                     </div>
                     <div class="carousel-item">
                         <div class="col-lg-2">
-                            <a href="..\SofingTV\HTML\ficha.html">
+                            <a href="..\SofingTV\HTML\ficha.php">
                                 <img class="img-fluid" src="..\SofingTV\Imagenes\cartelas\lacaza.jpeg">
                             </a>
                         </div>
                     </div>
                     <div class="carousel-item">
                         <div class="col-lg-2">
-                            <a href="..\SofingTV\HTML\ficha.html">
+                            <a href="..\SofingTV\HTML\ficha.php">
                              <img class="img-fluid" src="..\SofingTV\Imagenes\cartelas\honores.jpeg">
                             </a>
                         </div>
                     </div>
                     <div class="carousel-item">
                         <div class="col-lg-2">
-                            <a href="..\SofingTV\HTML\ficha.html">
+                            <a href="..\SofingTV\HTML\ficha.php">
                                 <img class="img-fluid" src="..\SofingTV\Imagenes\cartelas\familia.jpeg">
                             </a>
                         </div>
                     </div>
                     <div class="carousel-item">
                         <div class="col-lg-2">
-                            <a href="..\SofingTV\HTML\ficha.html">
+                            <a href="..\SofingTV\HTML\ficha.php">
                                 <img class="img-fluid" src="..\SofingTV\Imagenes\cartelas\corazonesrotos.jpeg">
                             </a>
                         </div>
@@ -562,7 +535,8 @@
         </div>
     </div>
   </div>  
-    <footer>
+    
+  <footer>
         <div class="container-fluid">
             <div class="row">
                 <div class="col-sm align-items-center" style="color: white; text-align: center; background-color: rgba(17, 17, 17, 0.322) ; ;">
@@ -617,7 +591,7 @@
 
         <div class="container-fluid">
             <div class="footer-copyright text-center py-3" style="color: white;">© 2020 Copyright:
-                <a href="Index.html">SofingTV.es</a>
+                <a href="Index.php">SofingTV.es</a>
             </div>
         </div>
     </footer>
